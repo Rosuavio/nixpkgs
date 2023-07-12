@@ -279,7 +279,7 @@ rec {
        toList [ 1 2 ]
        => [ 1 2 ]
        toList "hi"
-       => [ "hi "]
+       => [ "hi" ]
   */
   toList = x: if isList x then x else [x];
 
